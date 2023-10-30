@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import Main from './index';
+import Main from './main.component';
 
 describe('<Main />', () => {
   it('should render the heading', () => {
