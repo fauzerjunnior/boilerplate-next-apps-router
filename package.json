@@ -11,7 +11,7 @@
     "test": "jest --passWithNoTests --maxWorkers=50%",
     "generate": "npx plop --plopfile generators/plopfile.js",
     "test:watch": "jest --maxWorkers=25% --watch",
-    "test:ci": "jest --maxWorkers=25% --runInBand",
+    "test:ci": "jest --runInBand",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
